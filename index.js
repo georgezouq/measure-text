@@ -39,3 +39,5 @@ function measure(text, customStyle = null, className = null, tag = "span") {
   document.body.removeChild($span);
   return { width, height }
 }
+
+module.exports = measure;
