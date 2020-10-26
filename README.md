@@ -5,7 +5,7 @@ Measure your text width and height in JavaScript
 ### Getting Start
 
 ```
-npm install measure-text
+npm install gz-measure-text
 ```
 
 ```js
