@@ -1,0 +1,24 @@
+{
+  "name": "gz-measure-text",
+  "version": "0.0.1",
+  "description": "Measure your text width and height with custom style and class name in browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgezouq/measure-text.git"
+  },
+  "keywords": [
+    "javascript",
+    "text",
+    "tools"
+  ],
+  "author": "GeorgeZou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgezouq/measure-text/issues"
+  },
+  "homepage": "https://github.com/georgezouq/measure-text#readme"
+}
