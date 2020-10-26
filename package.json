@@ -1,6 +1,6 @@
 {
   "name": "gz-measure-text",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "Measure your text width and height with custom style and class name in browser",
   "main": "index.js",
   "scripts": {

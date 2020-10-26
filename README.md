@@ -2,19 +2,23 @@
 
 Measure your text width and height in JavaScript
 
-### Measure the Text
+## Getting Start
+
+Install `gz-measure-text`
 
 ```
 npm install gz-measure-text
 ```
 
-Import measure text JS:
+Import measure text js:
 
 ```javascript
 import measure from "gz-measure-text";
 
 const text = "This is a long text";
 ```
+
+### Measure
 
 For default setting:
 
@@ -47,7 +51,9 @@ const { width, height } = measure(text, null, null, "div");
 console.log("Result: ", width, height);
 ```
 
-### Get max in texts
+### maxWidth
+
+High performance way to get max width of a set of texts
 
 ```javascript
 import { maxWidth } from "gz-measure-text";
