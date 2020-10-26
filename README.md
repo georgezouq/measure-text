@@ -2,7 +2,7 @@
 
 Measure your text width and height in JavaScript
 
-### Getting Start
+### Measure the Text
 
 ```
 npm install gz-measure-text
@@ -45,4 +45,20 @@ For custom element tag name (default `span`):
 ```javascript
 const { width, height } = measure(text, null, null, "div");
 console.log("Result: ", width, height);
+```
+
+### Get max in texts
+
+```javascript
+import { maxWidth } from "gz-measure-text";
+
+const text = [
+	"This is a long text",
+	"todo something",
+	"what",
+	"hahahah",
+];
+
+const res = maxWidth(text);
+console.log("maxWidth: ", res);
 ```

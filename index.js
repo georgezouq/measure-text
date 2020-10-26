@@ -40,4 +40,18 @@ function measure(text, customStyle = null, className = null, tag = "span") {
   return { width, height }
 }
 
+/**
+ * A high performance way to get max width amount texts
+ */
+function maxWidth(texts, customStyle = null, className = null, tag = "span") {
+  var block = "";
+  texts.forEach(text => {
+    block += text + "<br />";
+  });
+
+  var res = measure(texts, customStyle, className, tag);
+  return res.width;
+}
+
 module.exports = measure;
+module.exports.max = max;
